@@ -12,6 +12,7 @@ body {
     height: 20rem;
     position: relative;
     left: 5vw;
+    margin-left: 5rem;
 }
 #bang_div {
     float: left;
@@ -19,6 +20,8 @@ body {
     width: 18rem;
     text-align: center;
     height: 20rem;
+    position: relative;
+    left: 5vw;
 }
 @media (max-width: 962px) {
     #prime_div, #bang_div {
@@ -26,5 +29,10 @@ body {
     }
     #prime_div {
         margin-top: 20px;
+        margin-left: 0rem;
+    }
+    #total {
+        position: relative;
+        left: -27vw;
     }
 }
