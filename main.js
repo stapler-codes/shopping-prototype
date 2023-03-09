@@ -43,13 +43,13 @@ const app = Vue.createApp({
         const phoneNumber = "1234567890"; // Phone number in international format (without '+' or '00')
         let message = "";
         if (this.bang_quantity > 0 && this.prime_quantity > 0) {
-            message += `I Want ${this.bang_quantity} Bang And ${this.prime_quantity} Prime`
+            message += `I Want ${this.bang_quantity} Bang And ${this.prime_quantity} Prime, My Name Is (your name)`
         }
         else if (this.bang_quantity > 0) {
-          message += `I Want ${this.bang_quantity} Bang`;
+          message += `I Want ${this.bang_quantity} Bang, My Name Is (your name)`;
         }
         else if (this.prime_quantity > 0) {
-            message += `I Want ${this.prime_quantity} Prime`;
+            message += `I Want ${this.prime_quantity} Prime, My Name Is (your name)`;
         }
         const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
         window.open(url);
