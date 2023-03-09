@@ -44,7 +44,7 @@ label {
       height: 4rem;
       position: absolute;
       top: 120%;
-      left: 10%;
+      left: -40%;
       transform: translateX(-50%);
       background-color: orange;
       font-size: 1.9rem;
