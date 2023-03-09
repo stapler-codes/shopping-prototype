@@ -32,7 +32,6 @@ body {
         margin-left: 0rem;
     }
     #total {
-        position: relative;
-        left: -27vw;
+        text-align: center;
     }
 }
