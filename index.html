@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@3"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1 style="text-align: center;">Total: {{ formattedtotal }} LBP</h1>
+        <div id="bang_div">
+            <img src="bang-removebg-preview.png" alt="bang image" id="bang_image">
+            <h2 id="bang_price">Price: {{ bang_price.toLocaleString() }}</h2>
+            <button v-on:click="bang_quantity++">+</button>
+            <label>{{ bang_quantity }}</label>
+            <button v-on:click="subtract_bang">-</button>
+        </div>
+        <div id="prime_div">
+            <img src="prime-removebg-preview.png" alt="prime image" id="prime_image">
+            <h2 id="prime_price">Price: {{ prime_price.toLocaleString() }}</h2>
+            <button v-on:click="prime_quantity++" >+</button>
+            <label >{{ prime_quantity }}</label>
+            <button v-on:click="subtract_prime()">-</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
