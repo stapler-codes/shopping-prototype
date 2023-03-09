@@ -34,4 +34,30 @@ body {
     #total {
         text-align: center;
     }
+    #submit {
+        width: 20rem;
+        height: 4rem;
+        position: relative;
+        top: 10vh;
+        left: 23%;
+        transform: translateX(-50%);
+        background-color: orange;
+        font-size: 1.9rem;
+        font-weight: 700;
+        border: none;
+        border-radius: 0.5rem;
+    }
+}
+#submit {
+    width: 20rem;
+    height: 4rem;
+    position: relative;
+    top: 70vh;
+    left: 1%;
+    transform: translateX(-50%);
+    background-color: orange;
+    font-size: 1.9rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 0.5rem;
 }
