@@ -1,10 +1,12 @@
 label {
-    margin: 0rem 0.3rem;
-}
-body {
+    margin: 0 0.3rem;
+  }
+  
+  body {
     overflow-x: hidden;
-}
-#prime_div {
+  }
+  
+  #prime_div {
     float: left;
     box-shadow: black 0px 9px 27px 0px;
     width: 18rem;
@@ -13,8 +15,9 @@ body {
     position: relative;
     left: 5vw;
     margin-left: 5rem;
-}
-#bang_div {
+  }
+  
+  #bang_div {
     float: left;
     box-shadow: black 0px 9px 27px 0px;
     width: 18rem;
@@ -22,42 +25,46 @@ body {
     height: 20rem;
     position: relative;
     left: 5vw;
-}
-@media (max-width: 962px) {
-    #prime_div, #bang_div {
-        float: none;
+  }
+  
+  @media (max-width: 962px) {
+    #prime_div,
+    #bang_div {
+      float: none;
     }
     #prime_div {
-        margin-top: 20px;
-        margin-left: 0rem;
+      margin-top: 20px;
+      margin-left: 0;
     }
     #total {
-        text-align: center;
+      text-align: center;
     }
-    #submit {
-        width: 20rem;
-        height: 4rem;
-        position: relative;
-        top: 10vh;
-        left: 23%;
-        transform: translateX(-50%);
-        background-color: orange;
-        font-size: 1.9rem;
-        font-weight: 700;
-        border: none;
-        border-radius: 0.5rem;
+    .submit {
+      width: 20rem;
+      height: 4rem;
+      position: absolute;
+      top: 120%;
+      left: 10%;
+      transform: translateX(-50%);
+      background-color: orange;
+      font-size: 1.9rem;
+      font-weight: 700;
+      border: none;
+      border-radius: 0.5rem;
     }
-}
-#submit {
+  }
+  
+  #submit {
     width: 20rem;
     height: 4rem;
-    position: relative;
-    top: 70vh;
-    left: 1%;
+    position: absolute;
+    bottom: 3rem;
+    left: 50%;
     transform: translateX(-50%);
     background-color: orange;
     font-size: 1.9rem;
     font-weight: 700;
     border: none;
     border-radius: 0.5rem;
-}
+  }
+  
