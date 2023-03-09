@@ -40,7 +40,7 @@ const app = Vue.createApp({
       },
       send() {
         // Replace the following variables with your own values
-        const phoneNumber = "1234567890"; // Phone number in international format (without '+' or '00')
+        const phoneNumber = "81195890"; // Phone number in international format (without '+' or '00')
         let message = "";
         if (this.bang_quantity > 0 && this.prime_quantity > 0) {
             message += `I Want ${this.bang_quantity} Bang And ${this.prime_quantity} Prime, My Name Is (your name)`
